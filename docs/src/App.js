@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import { useEffect, useState } from 'react';
+import logo from './gradient-creator-logo.svg';
+import { useState } from 'react';
 import './App.css';
 import { createGradient } from 'gradient-creator';
 import Button from '@material-ui/core/Button';
@@ -22,10 +22,18 @@ function App() {
     setColorList(CL);
   }
 
+  const ShowGradients = () => <div className="gradient-container">
+    {colorList ? colorList.map(color =>
+      <div style={{ backgroundColor: color, width: 100 / colorList.length + '%' }}></div>) : null
+    }
+  </div>;
+
   return (
     <div>
+      <ShowGradients />
       <div className="Field-container">
-        <h1> Gradient Creator </h1>
+        <img src={logo} width={100}/>
+        <h2> Gradient Creator </h2>
         <ColorPicker
           name='Start Color'
           defaultValue={startColor}
@@ -50,11 +58,9 @@ function App() {
           Create Gradient
         </Button>
       </div>
-      <div className="gradient-container">
-          {colorList ? colorList.map(color =>
-            <div style={{ backgroundColor: color, width: 100 / colorList.length + '%' }}></div>) : null
-          }
-      </div>
+      <ShowGradients />
+
+
 
     </div>
   );

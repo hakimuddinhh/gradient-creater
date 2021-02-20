@@ -8,14 +8,18 @@
 
 }
 
-.Field-container>* {
+.Field-container>*:not(img) {
   transition: all 0.5s ease;
 
   margin-bottom: 30px !important;
 }
 .gradient-container {
-  height: 10vh;
+  height: 5vh;
 
+}
+
+h1{
+  color: #002567;
 }
 
 .gradient-container>div { 

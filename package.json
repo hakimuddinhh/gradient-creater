@@ -1,7 +1,7 @@
 {
   "name": "gradient-creator",
-  "version": "1.0.7",
-  "description": "",
+  "version": "1.1.0",
+  "description": "A tiny Javascript plugin to create specified amount of gradient colors between two colors provided",
   "main": "index.js",
   "keywords": [
     "gradient generator",
