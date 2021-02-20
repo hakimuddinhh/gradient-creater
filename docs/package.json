@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": "https://hakimuddinhh.github.io/gradient-creator/",
   "private": true,
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
@@ -16,6 +19,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
