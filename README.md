@@ -15,7 +15,11 @@ npm i gradient-creater
 ```node
 import { createGradient } from 'gradient-creater';
 
-generateGradient('#ff0000', '#ffffff', 20) /* returns an array of colors */
+const startColor = '#ff0000'; /* Red */
+const endColor = '#ffffff'; /* White */
+const steps = 10; /* 10 colors should be created between red and white */
+
+createGradient(startColor, endColor, steps) /* returns an array of colors */
 ```
 
 ## Contributing
