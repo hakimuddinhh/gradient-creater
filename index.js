@@ -1,8 +1,8 @@
-export default function generateGradient(start, end, steps) {
+export function createGradient(startColor, endColor, steps) {
     // parse RGB values to each {Red, Green, Blue} keys
 
-    let startRGB = hexToRgb(start)
-    let endRGB = hexToRgb(end)
+    let startRGB = hexToRgb(startColor)
+    let endRGB = hexToRgb(endColor)
     let gradients = []
     // generate color for each steps provided then push the value to gradients array
     for (let step = 1; step <= steps; step++) {
