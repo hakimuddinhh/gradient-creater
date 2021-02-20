@@ -26,3 +26,12 @@ h1{
   height: 100%;
   float: left;
 }
+
+.show-code {
+  display: flex;
+  align-items: baseline;
+}
+
+.show-code>div:first-child {
+  margin-right: 10px;
+}
