@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gradient-creator/static/css/main.7bc6d420.chunk.css",
-    "main.js": "/gradient-creator/static/js/main.997f7c89.chunk.js",
-    "main.js.map": "/gradient-creator/static/js/main.997f7c89.chunk.js.map",
-    "runtime-main.js": "/gradient-creator/static/js/runtime-main.156547aa.js",
-    "runtime-main.js.map": "/gradient-creator/static/js/runtime-main.156547aa.js.map",
-    "static/js/2.239c6f88.chunk.js": "/gradient-creator/static/js/2.239c6f88.chunk.js",
-    "static/js/2.239c6f88.chunk.js.map": "/gradient-creator/static/js/2.239c6f88.chunk.js.map",
-    "static/js/3.fabffff2.chunk.js": "/gradient-creator/static/js/3.fabffff2.chunk.js",
-    "static/js/3.fabffff2.chunk.js.map": "/gradient-creator/static/js/3.fabffff2.chunk.js.map",
+    "main.css": "/gradient-creator/static/css/main.6b7b5c49.chunk.css",
+    "main.js": "/gradient-creator/static/js/main.0feb85b6.chunk.js",
+    "main.js.map": "/gradient-creator/static/js/main.0feb85b6.chunk.js.map",
+    "runtime-main.js": "/gradient-creator/static/js/runtime-main.b43f45ea.js",
+    "runtime-main.js.map": "/gradient-creator/static/js/runtime-main.b43f45ea.js.map",
+    "static/js/2.e9c27dd3.chunk.js": "/gradient-creator/static/js/2.e9c27dd3.chunk.js",
+    "static/js/2.e9c27dd3.chunk.js.map": "/gradient-creator/static/js/2.e9c27dd3.chunk.js.map",
+    "static/js/3.cb0d7eeb.chunk.js": "/gradient-creator/static/js/3.cb0d7eeb.chunk.js",
+    "static/js/3.cb0d7eeb.chunk.js.map": "/gradient-creator/static/js/3.cb0d7eeb.chunk.js.map",
     "index.html": "/gradient-creator/index.html",
-    "static/css/main.7bc6d420.chunk.css.map": "/gradient-creator/static/css/main.7bc6d420.chunk.css.map",
-    "static/js/2.239c6f88.chunk.js.LICENSE.txt": "/gradient-creator/static/js/2.239c6f88.chunk.js.LICENSE.txt",
+    "static/css/main.6b7b5c49.chunk.css.map": "/gradient-creator/static/css/main.6b7b5c49.chunk.css.map",
+    "static/js/2.e9c27dd3.chunk.js.LICENSE.txt": "/gradient-creator/static/js/2.e9c27dd3.chunk.js.LICENSE.txt",
     "static/media/gradient-creator-logo.4aa4c7fd.svg": "/gradient-creator/static/media/gradient-creator-logo.4aa4c7fd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.156547aa.js",
-    "static/js/2.239c6f88.chunk.js",
-    "static/css/main.7bc6d420.chunk.css",
-    "static/js/main.997f7c89.chunk.js"
+    "static/js/runtime-main.b43f45ea.js",
+    "static/js/2.e9c27dd3.chunk.js",
+    "static/css/main.6b7b5c49.chunk.css",
+    "static/js/main.0feb85b6.chunk.js"
   ]
 }
