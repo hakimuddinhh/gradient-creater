@@ -14,10 +14,6 @@ npm i gradient-creator
 
 Head to see the plugin in [action](https://hakimuddinhh.github.io/gradient-creator/)
 
-```bash
-npm i gradient-creator
-```
-
 ## Usage
 
 ```node

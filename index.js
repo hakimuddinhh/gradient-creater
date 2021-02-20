@@ -1,27 +1,41 @@
-export function createGradient(startColor, endColor, steps) {
-    // parse RGB values to each {Red, Green, Blue} keys
+export function createGradient(startColor, endColor, steps = 10) {
 
-    let startRGB = hexToRgb(startColor)
-    let endRGB = hexToRgb(endColor)
-    let gradients = []
-    // generate color for each steps provided then push the value to gradients array
-    for (let step = 1; step <= steps; step++) {
-        let colors = {}
+    if (isColor(startColor) && isColor(endColor)) {
+        // parse RGB values to each {Red, Green, Blue} keys
 
-        for (let color of ['red', 'green', 'blue']) {
-            colors[color] = colorMaker(
-                startRGB[color],
-                endRGB[color],
-                steps,
-                step
-            )
+        let startRGB = hexToRgb(startColor)
+        let endRGB = hexToRgb(endColor)
+        let gradients = []
+        // generate color for each steps provided then push the value to gradients array
+        for (let step = 1; step <= steps; step++) {
+            let colors = {}
+
+            for (let color of ['red', 'green', 'blue']) {
+                colors[color] = colorMaker(
+                    startRGB[color],
+                    endRGB[color],
+                    steps,
+                    step
+                )
+            }
+            let rgb = `rgb(${colors['red']}, ${colors['green']}, ${colors['blue']})`;
+            gradients.push(rgb)
+
         }
-        let rgb = `rgb(${colors['red']}, ${colors['green']}, ${colors['blue']})`;
-        gradients.push(rgb)
 
+        return gradients
     }
 
-    return gradients
+
+}
+
+function isColor(strColor) {
+    var test = /^#[0-9A-F]{6}$/i.test(strColor);
+    if (test == true) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 function colorMaker(start, end, steps, step) {

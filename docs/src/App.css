@@ -1,0 +1,24 @@
+.Field-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s ease;
+
+}
+
+.Field-container>* {
+  transition: all 0.5s ease;
+
+  margin-bottom: 30px !important;
+}
+.gradient-container {
+  height: 10vh;
+
+}
+
+.gradient-container>div { 
+  height: 100%;
+  float: left;
+}
