@@ -72,7 +72,7 @@ function App() {
     <div>
       <ShowGradients />
       <div className="Field-container">
-        <img src={logo} width={100} />
+        <img alt="gradient-creator-logo" src={logo} width={100} />
         <h2> Gradient Creator </h2>
         <ColorPicker
           name='Start Color'
@@ -90,7 +90,6 @@ function App() {
         />
         <TextField type="number" id="standard-basic"
           defaultValue={steps}
-          // value={steps}
           label="Steps"
           onChange={e => setSteps(e.currentTarget.value)}
         />
